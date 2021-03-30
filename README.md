@@ -43,3 +43,7 @@
 
 1. Styled-components（垃圾恶心厌恶吐你一脸
 2. 使用模块化 css（目前用的就是这一种
+
+### 安装 react-icons
+
+npm install react-icons
