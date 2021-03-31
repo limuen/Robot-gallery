@@ -28,7 +28,6 @@ export const AppStateProvider: React.FC = (props) => {
             <appSetStateContext.Provider value={setState}>
                 {children}
             </appSetStateContext.Provider>
-
         </appContext.Provider>
     )
 }

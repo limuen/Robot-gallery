@@ -35,7 +35,7 @@ class ShoppingCart extends React.Component<Props, State> {
                     return (<div className={styles.cartContainer}>
                         <button className={styles.button} onClick={this.handleClick}>
                             <FiShoppingCart />
-                            <span>购物车{value.shoppingCart.items.length}（件</span> ）</button>
+                            <span>购物车{value.shoppingCart.items.length}（件）</span> </button>
                         <div
                             className={styles.cartDropDown}
                             style={{

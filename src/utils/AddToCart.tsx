@@ -12,6 +12,7 @@ export const withAddToCart = (ChildComponet: React.ComponentType<RobotProps>) =>
             if (setState) {
                 setState(state => {
                     return {
+                        // 展开是因为避免修改不需要的数据
                         ...state,
                         shoppingCart: {
                             items: [...state.shoppingCart.items, { id, name }]

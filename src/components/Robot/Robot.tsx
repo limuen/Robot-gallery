@@ -19,7 +19,7 @@ const Robot: React.FC<RobotProps> = (props) => {
             <h2>{name}</h2>
             <p>{email}</p>
             <p>作者：{value.username}</p>
-            <button onClick={() => { addTocart(id, name) }}>假如购入车</button>
+            <button onClick={() => { addTocart(id, name) }}>加入购入车</button>
         </li>
     )
 }
